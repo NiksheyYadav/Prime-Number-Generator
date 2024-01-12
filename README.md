@@ -4,7 +4,7 @@ This program can generate prime numbers, with no limits.
 
 # The GPLv3 License (GPLv3)
 
-# Copyright © 2023 Tushar Maharana
+# Copyright © 2024 NiksheyYadav
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
