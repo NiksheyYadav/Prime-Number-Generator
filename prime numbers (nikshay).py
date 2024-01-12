@@ -16,14 +16,15 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-
+import datetime
 
 num = range(1,10000)
 
+start = datetime.datetime.now()
 
 def is_prime(num):
     loc = num
-    for i in range(2,loc):
+    for i in range(2,int(loc**0.5) + 1):
         if loc%i == 0:
             return False
     return True
@@ -31,3 +32,5 @@ def is_prime(num):
 primes = filter(is_prime, num)
     
 print(list(primes))
+print("start time: ", start)
+print("time taken: ", datetime.datetime.now()-start)
